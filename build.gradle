@@ -8,15 +8,10 @@ buildscript {
             name 'forge'
             url 'https://maven.minecraftforge.net/'
         }
-        maven {
-            // GTNH ForgeGradle Fork
-            name = "GTNH Maven"
-            url = "http://jenkins.usrv.eu:8081/nexus/content/groups/public/"
-        }
     }
     dependencies {
-        //classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-1.5.5-SNAPSHOT'
-        classpath 'net.minecraftforge.gradle:ForgeGradle:1.2.11'
+        classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-1.5.5-SNAPSHOT'
+        //classpath files('ForgeGradle-1.2-1.5.5-SNAPSHOT.jar')
     }
 }
 
